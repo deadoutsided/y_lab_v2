@@ -5,7 +5,7 @@ interface IButton {
   text: string,
   type?: 'submit' | 'reset' | 'button',
   theme: 'form',
-  onClick: () => void,
+  onClick: React.MouseEventHandler<HTMLButtonElement>,
   disabled: boolean,
 }
 
