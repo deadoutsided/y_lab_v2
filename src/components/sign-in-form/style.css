@@ -1,0 +1,25 @@
+.signIn{
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  background-color: #373737;
+  padding: 30px 20px;
+  border-radius: 10px;
+  align-items: center;
+  row-gap: 15px;
+  position: relative;
+}
+
+.signIn-title {
+  margin: 0px;
+}
+
+.signIn-showPassIcon {
+  position: absolute;
+  top: 58%;
+  width: 20px;
+  height: 20px;
+  right: 7%;
+  fill: #FFF;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.Input {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Input_theme_form {
+  border: 1px solid #A7A7A7;
+  border-radius: 10px;
+  padding: 12px 16px;
+  width: 90%;
+}

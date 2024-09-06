@@ -1,0 +1,18 @@
+.Button {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Button_theme_form {
+  color: #FFF;
+  background-color: #077f07;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 16px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.Button_theme_form:disabled {
+  background-color: #70b770;
+}
