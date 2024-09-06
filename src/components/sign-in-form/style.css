@@ -1,0 +1,61 @@
+.signIn{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-width: 200px;
+  width: 30%;
+  background-color: #373737;
+  padding: 30px 20px 45px;
+  border-radius: 10px;
+  align-items: center;
+  row-gap: 30px;
+  position: relative;
+}
+
+.signIn-title {
+  margin: 0px;
+  line-height: 35px;
+}
+
+.signIn-showPassIcon {
+  position: absolute;
+  top: 54.5%;
+  width: 20px;
+  height: 20px;
+  right: 7%;
+  fill: #FFF;
+  cursor: pointer;
+}
+
+
+.signIn_emailError,.signIn_passwordError {
+  row-gap: 0px;
+}
+
+.signIn_emailError > .signIn-title {
+  margin: 0 0 30px;
+}
+
+.signIn_passwordError > .signIn-title {
+  margin: 0 0 30px;
+}
+
+.signIn-errorText {
+  margin: 10px 0 10px 10px;
+  align-self: flex-start;
+  color: red;
+}
+
+.signIn_emailError:not(.signIn_passwordError) > .Button_theme_form {
+  margin: 44px 0 0;
+}
+
+.signIn_passwordError:not(.signIn_emailError) > .Input_theme_form:last-of-type {
+  margin: 44px 0 0;
+}
+
+.signIn-authenticateInfo {
+  position: absolute;
+  top: 10px;
+  margin: 0;
+}
