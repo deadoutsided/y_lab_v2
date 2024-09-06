@@ -53,3 +53,9 @@
 .signIn_passwordError:not(.signIn_emailError) > .Input_theme_form:last-of-type {
   margin: 44px 0 0;
 }
+
+.signIn-authenticateInfo {
+  position: absolute;
+  top: 10px;
+  margin: 0;
+}
